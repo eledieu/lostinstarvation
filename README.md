@@ -7,5 +7,10 @@ Heterotrophic marine bacteria navigate a heterogeneous landscape of resources. B
 
 Code available here:
 - Attachement: quantification of chitin bead size and number of attached bacteria
+      Main file: Bead_quantification_elise_v3.mlx
+      Example Input - Z-stack from ImageXpress: 21h 7day 45_B07_s15.tif (21h incubation in chitin beads with bacteria starved 7 days)
+      Example Output - Table written as a result of the pipeline: 20210514Out.csv 
 - Motility: get trajectories out of microscopy movies
+      Main file: Trajectory_quantification_v6.ipynb
+      Based on the trackpy package: http://soft-matter.github.io/trackpy/v0.5.0/
 - Foraging Simulation: simulate bacterial trajectories
